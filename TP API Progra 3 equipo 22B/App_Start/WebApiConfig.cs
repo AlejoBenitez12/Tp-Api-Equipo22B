@@ -19,6 +19,7 @@ namespace TP_API_Progra_3_equipo_22B
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+            config.Formatters.Remove(config.Formatters.XmlFormatter);
         }
     }
 }

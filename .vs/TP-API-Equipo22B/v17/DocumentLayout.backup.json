@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\alejo\\Desktop\\C# Progra 3\\TP-API-Equipo22B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|c:\\users\\alejo\\desktop\\c# progra 3\\tp-api-equipo22b\\tp api progra 3 equipo 22b\\models\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|c:\\users\\alejo\\desktop\\c# progra 3\\tp-api-equipo22b\\tp api progra 3 equipo 22b\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|solutionrelative:tp api progra 3 equipo 22b\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|c:\\users\\alejo\\desktop\\c# progra 3\\tp-api-equipo22b\\tp api progra 3 equipo 22b\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|solutionrelative:tp api progra 3 equipo 22b\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|C:\\Users\\alejo\\Desktop\\C# Progra 3\\TP-API-Equipo22B\\tp api progra 3 equipo 22b\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|solutionrelative:tp api progra 3 equipo 22b\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|C:\\Users\\alejo\\Desktop\\C# Progra 3\\TP-API-Equipo22B\\tp api progra 3 equipo 22b\\models\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|solutionrelative:tp api progra 3 equipo 22b\\models\\marca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|c:\\users\\alejo\\desktop\\c# progra 3\\tp-api-equipo22b\\tp api progra 3 equipo 22b\\models\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|solutionrelative:tp api progra 3 equipo 22b\\models\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|C:\\Users\\alejo\\Desktop\\C# Progra 3\\TP-API-Equipo22B\\tp api progra 3 equipo 22b\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|solutionrelative:tp api progra 3 equipo 22b\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|c:\\users\\alejo\\desktop\\c# progra 3\\tp-api-equipo22b\\tp api progra 3 equipo 22b\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|solutionrelative:tp api progra 3 equipo 22b\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|C:\\Users\\alejo\\Desktop\\C# Progra 3\\TP-API-Equipo22B\\tp api progra 3 equipo 22b\\models\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4608023F-D4DD-421E-9A11-E7DEEAB49D26}|TP API Progra 3 equipo 22B\\TP API Progra 3 equipo 22B.csproj|solutionrelative:tp api progra 3 equipo 22b\\models\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +34,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Desktop\\C# Progra 3\\TP-API-Equipo22B\\TP API Progra 3 equipo 22B\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "TP API Progra 3 equipo 22B\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\alejo\\Desktop\\C# Progra 3\\TP-API-Equipo22B\\TP API Progra 3 equipo 22B\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "TP API Progra 3 equipo 22B\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T16:48:48.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ArticulosController.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Desktop\\C# Progra 3\\TP-API-Equipo22B\\TP API Progra 3 equipo 22B\\Controllers\\ArticulosController.cs",
+              "RelativeDocumentMoniker": "TP API Progra 3 equipo 22B\\Controllers\\ArticulosController.cs",
+              "ToolTip": "C:\\Users\\alejo\\Desktop\\C# Progra 3\\TP-API-Equipo22B\\TP API Progra 3 equipo 22B\\Controllers\\ArticulosController.cs",
+              "RelativeToolTip": "TP API Progra 3 equipo 22B\\Controllers\\ArticulosController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvzcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T03:48:27.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArticuloNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\Desktop\\C# Progra 3\\TP-API-Equipo22B\\TP API Progra 3 equipo 22B\\Negocio\\ArticuloNegocio.cs",
+              "RelativeDocumentMoniker": "TP API Progra 3 equipo 22B\\Negocio\\ArticuloNegocio.cs",
+              "ToolTip": "C:\\Users\\alejo\\Desktop\\C# Progra 3\\TP-API-Equipo22B\\TP API Progra 3 equipo 22B\\Negocio\\ArticuloNegocio.cs",
+              "RelativeToolTip": "TP API Progra 3 equipo 22B\\Negocio\\ArticuloNegocio.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAgwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T03:45:33.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Articulo.cs",
               "DocumentMoniker": "C:\\Users\\alejo\\Desktop\\C# Progra 3\\TP-API-Equipo22B\\TP API Progra 3 equipo 22B\\Models\\Articulo.cs",
               "RelativeDocumentMoniker": "TP API Progra 3 equipo 22B\\Models\\Articulo.cs",
@@ -34,12 +84,11 @@
               "RelativeToolTip": "TP API Progra 3 equipo 22B\\Models\\Articulo.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T21:53:19.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T21:53:19.757Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\alejo\\Desktop\\C# Progra 3\\TP-API-Equipo22B\\TP API Progra 3 equipo 22B\\Models\\Categoria.cs",
               "RelativeDocumentMoniker": "TP API Progra 3 equipo 22B\\Models\\Categoria.cs",
@@ -47,12 +96,11 @@
               "RelativeToolTip": "TP API Progra 3 equipo 22B\\Models\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T21:18:04.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T21:18:04.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Marca.cs",
               "DocumentMoniker": "C:\\Users\\alejo\\Desktop\\C# Progra 3\\TP-API-Equipo22B\\TP API Progra 3 equipo 22B\\Models\\Marca.cs",
               "RelativeDocumentMoniker": "TP API Progra 3 equipo 22B\\Models\\Marca.cs",
@@ -60,8 +108,7 @@
               "RelativeToolTip": "TP API Progra 3 equipo 22B\\Models\\Marca.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T21:10:00.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T21:10:00.229Z"
             }
           ]
         }
