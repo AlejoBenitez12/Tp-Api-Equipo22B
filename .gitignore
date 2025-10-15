@@ -1,0 +1,20 @@
+# Archivos de caché y logs de Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Carpetas de compilación
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+
+# Paquetes de NuGet (para versiones más antiguas de .NET)
+packages/
+*.nupkg
+
+# Archivos de publicación
+publish/
+**/publish/

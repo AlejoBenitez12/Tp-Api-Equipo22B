@@ -59,20 +59,33 @@ namespace TP_API_Progra_3_equipo_22B.Negocio
                         if (lector["Precio"] != DBNull.Value)
                             articuloActual.Precio = (decimal)lector["Precio"];
 
-                        articuloActual.Marca = new Marca();
-                        articuloActual.Marca.Id = (int)lector["IdMarca"];
-                        articuloActual.Marca.Descripcion = (string)lector["DescripcionMarca"];
-
-                        articuloActual.Categoria = new Categoria();
-                        articuloActual.Categoria.Id = (int)lector["IdCategoria"];
-                        articuloActual.Categoria.Descripcion = (string)lector["DescripcionCategoria"];
-
+                        if (lector["IdMarca"] != DBNull.Value)
+                        {
+                            articuloActual.Marca = new Marca();
+                            articuloActual.Marca.Id = (int)lector["IdMarca"];
+                            articuloActual.Marca.Descripcion = (string)lector["DescripcionMarca"];
+                        }
+                        else
+                        {
+                            articuloActual.Marca = new Marca { Descripcion = "Sin Marca" };
+                        }
+                        if (lector["IdCategoria"] != DBNull.Value)
+                        {
+                            articuloActual.Categoria = new Categoria();
+                            articuloActual.Categoria.Id = (int)lector["IdCategoria"];
+                            articuloActual.Categoria.Descripcion = (string)lector["DescripcionCategoria"];
+                        }
+                        else
+                        {
+                            articuloActual.Categoria = new Categoria { Descripcion = "Sin Categoría" };
+                        }
                         articulosDiccionario.Add(idArticulo, articuloActual);
                     }
                     else
                     {
                         articuloActual = articulosDiccionario[idArticulo];
                     }
+
                     if (lector["ImagenUrl"] != DBNull.Value)
                     {
                         articuloActual.Imagenes.Add((string)lector["ImagenUrl"]);
