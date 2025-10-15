@@ -162,6 +162,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Articulo.cs" />
+    <Compile Include="Models\ArticuloDTO.cs" />
     <Compile Include="Models\Categoria.cs" />
     <Compile Include="Models\Marca.cs" />
     <Compile Include="Negocio\ArticuloNegocio.cs" />

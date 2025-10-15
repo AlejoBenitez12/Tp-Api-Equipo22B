@@ -106,5 +106,39 @@ namespace TP_API_Progra_3_equipo_22B.Negocio
                     conexion.Close();
             }
         }
+
+        public void Agregar(ArticuloDTO nuevo)
+        {
+            SqlConnection conexion = new SqlConnection();
+            SqlCommand comando = new SqlCommand();
+
+            try
+            {
+                conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true;";
+
+                comando.CommandType = System.Data.CommandType.Text;
+                comando.CommandText = "INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio) VALUES (@codigo, @nombre, @descripcion, @idMarca, @idCategoria, @precio)";
+
+                comando.Parameters.AddWithValue("@codigo", nuevo.Codigo);
+                comando.Parameters.AddWithValue("@nombre", nuevo.Nombre);
+                comando.Parameters.AddWithValue("@descripcion", nuevo.Descripcion);
+                comando.Parameters.AddWithValue("@idMarca", nuevo.IdMarca);
+                comando.Parameters.AddWithValue("@idCategoria", nuevo.IdCategoria);
+                comando.Parameters.AddWithValue("@precio", nuevo.Precio);
+
+                comando.Connection = conexion;
+
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+        }
     }
 }
