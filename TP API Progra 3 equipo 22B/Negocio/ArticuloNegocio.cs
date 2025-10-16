@@ -303,5 +303,42 @@ namespace TP_API_Progra_3_equipo_22B.Negocio
                 conexion.Close();
             } 
         }
+
+        public void AgregarImagenes(int idArticulo, List<string> listaImagenes)
+        {
+            if (listaImagenes == null || listaImagenes.Count == 0)
+            {
+                return;
+            }
+
+            SqlConnection conexion = new SqlConnection();
+            SqlCommand comando;
+
+            try
+            {
+                conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true;";
+                conexion.Open();
+
+                foreach (string url in listaImagenes)
+                {
+                    comando = new SqlCommand(); 
+                    comando.CommandText = "INSERT INTO IMAGENES (IdArticulo, ImagenUrl) VALUES (@idArticulo, @imagenUrl)";
+                    comando.Parameters.AddWithValue("@idArticulo", idArticulo);
+                    comando.Parameters.AddWithValue("@imagenUrl", url);
+                    comando.Connection = conexion;
+
+                    comando.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                if (conexion.State == System.Data.ConnectionState.Open)
+                    conexion.Close();
+            }
+        }
     }
 }
