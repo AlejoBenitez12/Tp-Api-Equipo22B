@@ -31,12 +31,44 @@ namespace TP_API_Progra_3_equipo_22B.Controllers
         // GET: api/Articulos/5
         public IHttpActionResult Get(int id)
         {
-            return Ok("Respuesta temporal: se buscará el artículo con ID: " + id);
+            try
+            {
+                ArticuloNegocio negocio = new ArticuloNegocio();
+                Articulo articulo = negocio.BuscarPorId(id);
+                if (articulo == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(articulo);
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
         }
 
         // POST: api/Articulos
-        public void Post([FromBody]string value)
+        public IHttpActionResult Post([FromBody] ArticuloDTO nuevoArticulo)
         {
+
+            try
+            {
+                if (!ModelState.IsValid)
+                    return BadRequest(ModelState);
+
+                ArticuloNegocio negocio = new ArticuloNegocio();
+
+                negocio.Agregar(nuevoArticulo);
+
+                return Ok("Artículo agregado exitosamente.");
+            }
+            catch (Exception ex)
+            {
+
+                return InternalServerError(ex);
+            }
+
         }
 
         // PUT: api/Articulos/5
