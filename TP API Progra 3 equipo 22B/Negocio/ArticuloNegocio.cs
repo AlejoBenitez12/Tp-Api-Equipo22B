@@ -230,5 +230,47 @@ namespace TP_API_Progra_3_equipo_22B.Negocio
                 conexion.Close();
             }
         }
+
+        public void Modificar(ArticuloDTO articulo, int id)
+        {
+            SqlConnection conexion = new SqlConnection();
+            SqlCommand comando = new SqlCommand();
+
+            try
+            {
+                conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true;";
+
+                comando.CommandType = System.Data.CommandType.Text;
+                comando.CommandText = @"UPDATE ARTICULOS SET 
+                                Codigo = @codigo, 
+                                Nombre = @nombre, 
+                                Descripcion = @descripcion, 
+                                IdMarca = @idMarca, 
+                                IdCategoria = @idCategoria, 
+                                Precio = @precio 
+                              WHERE Id = @id";
+
+                comando.Parameters.AddWithValue("@codigo", articulo.Codigo);
+                comando.Parameters.AddWithValue("@nombre", articulo.Nombre);
+                comando.Parameters.AddWithValue("@descripcion", articulo.Descripcion);
+                comando.Parameters.AddWithValue("@idMarca", articulo.IdMarca);
+                comando.Parameters.AddWithValue("@idCategoria", articulo.IdCategoria);
+                comando.Parameters.AddWithValue("@precio", articulo.Precio);
+                comando.Parameters.AddWithValue("@id", id); 
+
+                comando.Connection = conexion;
+
+                conexion.Open();
+                comando.ExecuteNonQuery(); 
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                conexion.Close();
+            }
+        }
     }
 }
