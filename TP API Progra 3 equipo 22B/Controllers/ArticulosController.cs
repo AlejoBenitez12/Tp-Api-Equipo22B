@@ -72,10 +72,23 @@ namespace TP_API_Progra_3_equipo_22B.Controllers
         }
 
         // PUT: api/Articulos/5
-        public void Put(int id, [FromBody]string value)
+        public IHttpActionResult Put(int id, [FromBody]ArticuloDTO articuloModificado)
         {
+            try
+            {
+                if (!ModelState.IsValid)
+                    return BadRequest(ModelState);
 
-        }
+                ArticuloNegocio negocio = new ArticuloNegocio();
+                negocio.Modificar(articuloModificado, id);
+
+                return Ok("Artículo modificado exitosamente.");
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
+        } 
 
         // DELETE: api/Articulos/5
         public void Delete(int id)
