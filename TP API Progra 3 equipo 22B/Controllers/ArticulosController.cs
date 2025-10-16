@@ -91,8 +91,25 @@ namespace TP_API_Progra_3_equipo_22B.Controllers
         } 
 
         // DELETE: api/Articulos/5
-        public void Delete(int id)
+        public IHttpActionResult Delete(int id)
         {
+            try
+            {
+                ArticuloNegocio negocio = new ArticuloNegocio();
+                var articulo = negocio.BuscarPorId(id);
+                if (articulo == null)
+                {
+                    return NotFound();
+                }
+
+                negocio.Eliminar(id);
+
+                return Ok("Artículo eliminado exitosamente.");
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
         }
     }
 }

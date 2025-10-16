@@ -301,7 +301,7 @@ namespace TP_API_Progra_3_equipo_22B.Negocio
             finally
             {
                 conexion.Close();
-            } //SUBIR A GIT, 16/10 00:45
+            } 
         }
     }
 }
