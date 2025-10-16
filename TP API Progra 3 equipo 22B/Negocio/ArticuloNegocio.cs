@@ -272,5 +272,36 @@ namespace TP_API_Progra_3_equipo_22B.Negocio
                 conexion.Close();
             }
         }
+
+        public void Eliminar(int id)
+        {
+            SqlConnection conexion = new SqlConnection();
+            SqlCommand comando = new SqlCommand();
+
+            try
+            {
+                conexion.ConnectionString = "server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true;";
+
+                comando.CommandType = System.Data.CommandType.Text;
+                comando.CommandText = "DELETE FROM ARTICULOS WHERE Id = @id";
+
+
+                comando.Parameters.AddWithValue("@id", id);
+
+                comando.Connection = conexion;
+
+ 
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                conexion.Close();
+            } //SUBIR A GIT, 16/10 00:45
+        }
     }
 }
